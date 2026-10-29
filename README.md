@@ -126,7 +126,6 @@ Free access that renews periodically, no one-time expiry.
 | [Requesty](https://requesty.ai/) | No | 20 RPM on free models (60 RPM for paying orgs) | 200 requests/day (new orgs) / 1,000/day (paying orgs), shared across free models | Ling 3.0 Tiny, Nemotron 3 Nano Omni Reasoning, Nemotron 3 Nano 30B A3B, Mistral Leanstral 1.5 |
 | [Vercel AI Gateway](https://vercel.com/ai-gateway) | Registration | Rate limited per model (lower than paid tier) | Monthly free credit (~$5, verify) | See provider |
 | [Onomeo](https://onomeo.com) | Registration | 12 requests/minute per key | 30 free-model calls every 5 hours per account | Glyph Cluster (stealth), Gemini 3.5 Flash-Lite, Muse Glimmer 30B, GLM-4.6V Flash |
-| [IteraCompute](https://iteracompute.com/free/) | Registration | 160K tokens/minute (fair use, may queue) | No daily cap; 30M tokens per month | Qwen3.8 27B |
 | [BazaarLink](https://bazaarlink.ai/free) | Registration | 10 RPM (20 RPM with any credit), 2 concurrent requests | 60 weighted units/day (120 with credit), resets 00:00 UTC | Qwen3.7 Flash, Reflection Beam (free), Nemotron 3.5 Lightning (free), Glyph Cluster (stealth) |
 <!--TABLE:RENEWABLE:END-->
 
@@ -152,10 +151,10 @@ Sign up and receive credits to use until depleted.
 | [Dahl Inference](https://inference.dahl.global/) | Registration | — | — | GLM-5.3 Flash, MiniMax M2.7, DeepSeek V4 Flash 0731 |
 | [Friendli AI](https://friendli.ai/) | Registration | Trial credits at onboarding (amount not published) | One-time | GLM-5.1, DeepSeek V3.2, Gemma 4 31B, GLM 5.2 |
 | [Grokified](https://grokified.com) | No | $5 | One-time | grok-4.6, grok-4.3, grok-build-0.1 |
-| [IteraCompute](https://iteracompute.com/free/) | No; email/Google account required | Up to 30M tokens per month during the promotion | 2026-11-24 at 00:00 Pacific Time | Qwen3.8-27B (`qwen/qwen3.8-27b`); 128K context, 8K output; 160,000 TPM |
+| [IteraCompute](https://iteracompute.com/free/) | No card; email/Google account required | Up to 30M tokens/month during the promotion | 2026-11-24 at 00:00 Pacific Time | Qwen3.8-27B (`qwen/qwen3.8-27b`); 128K context, 8K output; 160K TPM |
 <!--TABLE:TRIAL:END-->
 
-IteraCompute is a limited-time free promotion, verified 2026-10-29 against its [free API policy](https://iteracompute.com/free/). Input and output including reasoning count across account keys. Monthly usage resets at 00:00 UTC on the first of each month, without rollover or automatic paid overage. Shared capacity may queue and has no SLA.
+IteraCompute's Qwen3.8-27B free promotion ends on November 24, 2026 at 00:00 Pacific Time, as stated on the [official free API page](https://iteracompute.com/free/) (verified 2026-10-29). Input and output including reasoning share the monthly account allowance. No rollover or automatic paid overage; shared capacity may queue.
 
 ### 🖥️ Local / Self-Hosted (Unlimited, Private, Free Forever)
 
@@ -218,9 +217,8 @@ IteraCompute is a limited-time free promotion, verified 2026-10-29 against its [
 | [BazaarLink](https://bazaarlink.ai/free) | `https://api.bazaarlink.ai/v1` | [Get Key →](https://bazaarlink.ai/free) |
 | [Dahl Inference](https://inference.dahl.global/) | `https://inference.dahl.global/v1` | [Get Key →](https://inference.dahl.global/) |
 | [Friendli AI](https://friendli.ai/) | `https://inference.friendli.ai/v1` | [Get Key →](https://friendli.ai/) |
-| [LLM7.io](https://llm7.io) | `https://api.llm7.io/v1` | [Get Key →](https://llm7.io) |
 | [Grokified](https://grokified.com) | `https://api.grokified.com/v1` | [Get Key →](https://grokified.com) |
-| [IteraCompute](https://iteracompute.com/free/) | `https://api.iteracompute.com/v1` | [Get Key →](https://platform.iteracompute.com/api-keys) |
+| [LLM7.io](https://llm7.io) | `https://api.llm7.io/v1` | [Get Key →](https://llm7.io) |
 <!--TABLE:QUICKREF:END-->
 
 ---
@@ -321,4 +319,4 @@ MIT — see [LICENSE](LICENSE) for details.
 
 ---
 
-<p align="center"><sub>Data synced automatically from the live directory — last updated: <!--LASTSYNC:START-->2026-10-28<!--LASTSYNC:END--></sub></p>
+<p align="center"><sub>Data synced automatically from the live directory — last updated: <!--LASTSYNC:START-->2026-10-29<!--LASTSYNC:END--></sub></p>
